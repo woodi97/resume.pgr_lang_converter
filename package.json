@@ -1,0 +1,23 @@
+{
+  "name": "resume_crawler",
+  "version": "1.0.0",
+  "description": "crawler for resume in programmers",
+  "main": "app.ts",
+  "repository": "https://github.com/woodi97/resume.eng_converter",
+  "author": "woodi97",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node app.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^14.2.0",
+    "puppeteer": "^13.1.0"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.30",
+    "@types/puppeteer": "^5.4.4"
+  }
+}
